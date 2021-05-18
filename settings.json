@@ -1,0 +1,355 @@
+{
+    "python.pythonPath": "C:\\Users\\GonVirginia\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "java.home": "C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.8.10-hotspot",
+    "explorer.confirmDelete": false,
+
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "parameter": "#82AAFF",
+            "function": "#A7EC21",
+            "interface": {
+                "foreground": "#C3E88D",
+                "underline": false,
+                "italic": true,
+            },
+            "class": {
+                "foreground": "#52E3F6",
+                "underline": false,
+                "italic": true,
+            },
+            "enum": {
+                "foreground": "#52E3F6",
+                "underline": false,
+                "italic": true,
+            },
+            "annotation": {
+                "foreground": "#C792EA",
+                "underline": false,
+                "italic": true,
+            },
+            "variable": {
+                "foreground": "#F78C6C",
+                "underline": false,
+                "italic": false,
+            },
+            "property": {
+                "foreground": "#C3E88D",
+                "underline": false,
+                "italic": false,
+            },
+            "namespace": {
+                "foreground": "#52E3F6",
+                "underline": false,
+                "italic": false,
+            },
+            "*.private": {
+                "foreground": "#FFFFFF",
+                "underline": false,
+                "italic": false,
+            },
+            "*.protected": {
+                "foreground": "#FFFFFF",
+                "underline": false,
+                "italic": false,
+            },
+            "*.static": {
+                "foreground": "#A7EC21",
+                "underline": false,
+                "italic": false,
+            },
+        }
+    },
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules":[
+            {
+                "scope": "punctuation.terminator.java",
+                "settings": {
+                    "foreground": "#FF007F",
+                }
+            },
+            {
+                "scope": "punctuation.terminator.statement.js",
+                "settings": {
+                    "foreground": "#FF007F",
+                }
+            },
+            {
+                "scope": "punctuation.separator.period.java",
+                "settings": {
+                    "foreground": "#FF007F",
+                }
+            },
+            {
+                "scope": "storage.type.primitive.java",
+                "settings": {
+                    "foreground": "#FF007F",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "entity.name.type.class.java",
+                "settings": {
+                    "foreground": "#52E3F6",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "storage.type.object.array.java",
+                "settings": {
+                    "foreground": "#52E3F6",
+                }
+            },
+            {
+                "scope": "meta.method.body.java",
+                "settings": {
+                    "foreground": "#FFFFFF",
+                }
+            },
+            {
+                "scope": "storage.modifier.java",
+                "settings": {
+                    "foreground": "#FF007F",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "keyword.other.documentation.javadoc.java",
+                "settings": {
+                    "foreground": "#C792EA",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "punctuation.definition.annotation.java",
+                "settings": {
+                    "foreground": "#C792EA",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#FF007F",
+                }
+            },
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "foreground": "#82AAFF",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "variable.other.object.java",
+                "settings": {
+                    "foreground": "#52E3F6",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "variable.language.this.java",
+                "settings": {
+                    "foreground": "#FF007F",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "variable.other.object.java",
+                "settings": {
+                    "foreground": "#FFFFFF",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "parameter",
+                "settings": {
+                    "foreground": "#82AAFF",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "keyword.other.package.java",
+                "settings": {
+                    "foreground": "#FF007F",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "keyword.other.import.java",
+                "settings": {
+                    "foreground": "#FF007F",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "storage.modifier.implements.java",
+                "settings": {
+                    "foreground": "#FF007F",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "variable.other.constant.js",
+                "settings": {
+                    "foreground": "#FFFFFF",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "variable.other.object.property.js",
+                "settings": {
+                    "foreground": "#C3E88D",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "constant.numeric",
+                "settings": {
+                    "foreground": "#C792EA",
+                }
+            },
+            {
+                "scope": "variable.other.property.js",
+                "settings": {
+                    "foreground": "#C3E88D",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "punctuation.accessor.js",
+                "settings": {
+                    "foreground": "#FF007F",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "support.variable.property.js",
+                "settings": {
+                    "foreground": "#C3E88D",
+                    "fontStyle": "",
+                }
+            },
+        ],
+
+        "comments": "#424242",
+        "strings": "#f5ee89",
+        "keywords": "#FF007F",
+        "functions": "#A7EC21",
+        "variables": "#FFFFFF",
+    },
+
+    
+
+    "workbench.colorCustomizations": {
+
+
+        "editor.background": "#121212",
+        "editor.lineHighlightBackground": "#161616",
+        "editor.lineHighlightBorder": "#161616",
+        "editorGutter.background": "#121212",
+        "activityBar.border": "#424242",
+        "editorLineNumber.foreground": "#424242",
+        "activityBar.background": "#121212",
+        "activityBar.activeBackground": "#1D1D1D",
+        "breadcrumb.background": "#121212",
+        "sideBar.background": "#121212",
+        "sideBar.border": "#424242",
+        "sideBar.foreground": "#A7A7A7",
+        "sideBarSectionHeader.background": "#1D1D1D",
+        "foreground": "#FFFFFF",
+        "terminal.background": "#121212",
+        "terminal.border": "#424242",
+        "panel.background": "#121212",
+        "panel.border": "#424242",
+
+        "activityBarBadge.background": "#FF007D",
+        "activityBar.activeBorder": "#FF007D",
+        "list.activeSelectionForeground": "#FF007D",
+        "list.inactiveSelectionForeground": "#FF007D",
+        "list.highlightForeground": "#FF007D",
+        "scrollbarSlider.activeBackground": "#FF007D",
+        "editorSuggestWidget.highlightForeground": "#FF007D",
+        "textLink.foreground": "#FF007D",
+        "progressBar.background": "#FF007D",
+        "pickerGroup.foreground": "#FF007D",
+        "tab.activeBorder": "#FF007D",
+        "notificationLink.foreground": "#FF007D",
+        "editorWidget.resizeBorder": "#FF007D",
+        "editorWidget.border": "#FF007D",
+        "settings.modifiedItemIndicator": "#FF007D",
+        "settings.headerForeground": "#FF007D",
+        "panelTitle.activeBorder": "#FF007D",
+        "breadcrumb.activeSelectionForeground": "#FF007D",
+        "menu.selectionForeground": "#FF007D",
+        "menubar.selectionForeground": "#FF007D",
+        "editor.findMatchBorder": "#FF007D",
+        "selection.background": "#FF007D"
+    },
+    "editor.fontLigatures": true,
+    "materialTheme.accent": "Pink",
+    "java.semanticHighlighting.enabled": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.fontFamily": "'Fira Code'",
+    "editor.formatOnPaste": true,
+    "sonarlint.rules": {
+        "java:S106": {
+            "level": "off"
+        },
+        "java:S1130": {
+            "level": "off"
+        }
+    },
+    "workbench.colorTheme": "Monokai Night",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "window.zoomLevel": 0,
+    "java.codeGeneration.generateComments": true,
+    "java.project.referencedLibraries": [],
+    "workbench.editorAssociations": [
+    
+    ],
+    "glassit.alpha": 230,
+    "java.completion.favoriteStaticMembers": [
+
+        "org.junit.Assert.*",
+        "org.junit.Assume.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicContainer.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.mockito.Answers.*"
+    ],
+    "editor.insertSpaces": false,
+    "cSpell.userWords": [
+        "fapping",
+        "zoomer"
+    ],
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "python.languageServer": "Microsoft",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.enableSmartCommit": true
+}
